@@ -4,7 +4,7 @@ public class ReverseString {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the word to check: ");
-        String str = scan.next();
+        String str = scan.nextLine();
         String reverseStr = "";
 
         int strLength = str.length();
